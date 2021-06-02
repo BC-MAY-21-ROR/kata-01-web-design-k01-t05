@@ -1,0 +1,8 @@
+@mixin buttom ($color, $ancho, $padding, $fontSize) {
+    background-color: $color;
+    width: $ancho;
+    padding: $padding;
+    text-align: center;
+    border-radius: 50px;
+    font-size: $fontSize;
+}

@@ -1,0 +1,74 @@
+@import './variables';
+
+.footer {
+    background-color: $darkCtyan;
+    color: #fff;
+    padding: 100px 0px 20px 0px;
+    font-family: $fontBody;
+    .containerFooter{
+        margin: 0 auto;
+        width: 90%;
+        .img-footer{
+           width: 60%; 
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .links {
+            margin-top: 35px;
+            margin-bottom: 35px;
+            vertical-align: baseline;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1.3rem;
+            font-weight: 400;
+        }
+
+
+        // :O
+        .footer-location {
+            display: flex;
+            
+            margin: 25px 0px 20px 0px;
+            
+            p {
+                margin: 0px 10px 0px 20px;
+
+            }
+            img {
+                height: 20px;
+            }
+        }
+        .footer-phone {
+            display: flex;
+            
+            margin: 25px 0px 20px 0px;
+            
+            p {
+                margin: 0px 10px 0px 20px;
+
+            }
+            img {
+                height: 20px;
+            }
+        }
+        .footer-email {
+            display: flex;
+            
+            margin: 25px 0px 20px 0px;
+            
+            p {
+                margin: 0px 10px 0px 20px;
+
+            }
+            img {
+                height: 20px;
+            }
+        }
+        .copyrightSection{
+            text-align: center;
+        }
+    }
+}
