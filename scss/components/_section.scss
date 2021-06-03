@@ -1,20 +1,29 @@
 @import '../components/variables';
+@import '../components/mixins';
 
+.information {
+    font-family: $fontBody;
+    font-size: 18px;
+    text-align: center;
+    width: 85%;
+    margin: 60px auto 0px auto;
+    // margin-top: 60px;
+    // border: 1px solid #c2c2c278;
+    border-radius: 7px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(218, 211, 211);
 
-    .information{
-        text-align: center;
-        width: 95%;
-        margin: 0 auto;
-        margin-top: 60px;
-        border: 1px solid #ffffff;
-        border-radius: 7px;
-        padding: 0px;
-        box-shadow: 0px 0px 15px #ccc;
-        
-        .img-information{
-            margin-top: 50px;
+    .contenido {
+        margin: 20px;
+
+        .img-information {
+            margin: 50px 0px 20px 0px;
             width: 95%;
-            margin-bottom: 20px;
+            // margin-bottom: 20px;
         }
-    
+
+        .p-information {
+            font-size: 10px;
+        }
     }
+}
