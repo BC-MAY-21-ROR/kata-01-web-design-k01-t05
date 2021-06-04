@@ -202,7 +202,7 @@ body {
 
 @media (min-width: 1440px) {
   .readyToBuild {
-    margin: 135px 0  0 338px;
+    margin: 135px 0  0 360px;
     width: 50%;
   }
   .readyToBuild .contenido {
@@ -233,6 +233,7 @@ body {
   margin: 0 auto;
   margin-top: 100px;
   width: 90%;
+  padding-bottom: 20px;
 }
 
 .footer .containerFooter .img-footer {
@@ -315,6 +316,45 @@ body {
 }
 
 .footer .containerFooter .copyrightSection .mensaje {
+  text-align: center;
   margin-top: 20px;
   padding-bottom: 20px;
+}
+
+@media (min-width: 1440px) {
+  .footer {
+    padding-bottom: -97px;
+    margin-top: -100px;
+  }
+  .footer .containerFooter {
+    margin-top: 100px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer .containerFooter .container-one {
+    width: 35%;
+  }
+  .footer .containerFooter .container-one .footer-location, .footer .containerFooter .container-one .footer-email, .footer .containerFooter .container-one .footer-phone {
+    margin-top: 40px;
+  }
+  .footer .containerFooter .container-two {
+    justify-content: center;
+    margin-top: -14px;
+  }
+  .footer .containerFooter .container-three {
+    justify-content: center;
+  }
+  .footer .containerFooter .copyrightSection {
+    width: 20%;
+  }
+  .footer .containerFooter .copyrightSection .redes-sociales {
+    gap: 12px;
+    padding-top: 150px;
+  }
+  .footer .containerFooter .copyrightSection .mensaje {
+    margin-top: 150px;
+    text-align: end;
+  }
 }

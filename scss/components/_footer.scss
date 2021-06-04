@@ -11,6 +11,7 @@
         margin: 0 auto;
         margin-top: 100px;
         width: 90%;
+        padding-bottom: 20px;
         .img-footer{
            width: 53%; 
         }
@@ -83,6 +84,7 @@
                 margin: 30px 0px 30px 0px;
             }
             .mensaje{
+                text-align: center;
                 margin-top: 20px;
                 padding-bottom: 20px;
             }
@@ -91,26 +93,47 @@
 }
 
 @media (min-width: 1440px) {
-    // .containerFooter {
-    //     display: flex;
-    //     flex-direction: row;
-    //     justify-content: space-around;
-    //     .container-one {
-    //         display: flex;
-    //         flex-direction: column;
-    //     }
-    //     .container-two {
-    //         display: flex;
-    //         flex-direction: column;
-    //     }
-    //     .container-three {
-    //         display: flex;
-    //         flex-direction: column;
-    //     }
-    //     .redes-sociales {
-    //         display: flex;
-    //         flex-direction: row;
-    //     }
+    .footer{
+        padding-bottom: -97px;
+        margin-top: -100px;
+        .containerFooter {
+            margin-top: 100px;
+            padding-bottom: 30px;
+            .container-one{
+                width: 35%;
+                .footer-location,.footer-email, .footer-phone{
+                    margin-top: 40px;
+                }
+            }
+            .container-two{
 
-    // }
+                justify-content: center;
+
+                margin-top: -14px;
+                
+            }
+            .container-three{
+                justify-content: center;
+            }
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+            .copyrightSection {
+                width: 20%;
+                .redes-sociales{
+                    gap: 12px;
+                    padding-top:150px;
+                    // margin-bottom: -100px;
+                }
+                .mensaje {
+                    margin-top: 150px;
+                    text-align: end;
+                }
+            }
+    
+        }
+        
+    }
+    
 }
