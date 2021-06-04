@@ -202,7 +202,7 @@ body {
 
 @media (min-width: 1440px) {
   .readyToBuild {
-    margin: 135px 0  0 360px;
+    margin: 135px 0  0 365px;
     width: 50%;
   }
   .readyToBuild .contenido {
@@ -217,6 +217,13 @@ body {
     padding: 20px 15px;
     font-size: 18px;
     margin-top: 2px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .readyToBuild {
+    margin: 135px 0  0 478px;
+    width: 50%;
   }
 }
 
